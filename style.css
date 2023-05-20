@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("images/background2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding: 15px;
+}
+
+#toggleMenu {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#projectMenu {
+  z-index: 0;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-325px);
+  transition: 0.45s ease-in-out;
+  background-color: #555;
+  opacity: 0.5;
+}
+
+#projectMenu:hover {
+  z-index: 1;
+}
+
+#projectsAndHome {
+  font-size: x-large;
+  color: rgb(80, 3, 31);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.julieSalden {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(148, 118, 201)
+  );
+  margin-bottom: 60px;
+}
+/* rgb(203, 124, 148) */
+
+#img {
+  height: 200px;
+  width: 155px;
+  border-radius: 20%;
+  padding-right: 10px;
+}
+
+#aboutMe {
+  text-align: center;
+}
+
+#logoLI {
+  height: 20px;
+  width: 74px;
+}
+
+#logoGH {
+  height: 25px;
+  width: 68px;
+}
+
+.projectPicContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projectPic {
+  border: 5px solid #555;
+  height: 500px;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.projectTextContainer {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.projectText {
+  text-align: center;
+}
+
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#footer {
+  color: aliceblue;
+  background-color: #555;
+  opacity: 0.5;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
