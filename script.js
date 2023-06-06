@@ -14,7 +14,7 @@ toggleMenu.addEventListener("mouseleave", function () {
 });
 
 toggleMenu.addEventListener("click", function () {
-  getProjectToggle.style.transform = "translateX(-325px)";
+  getProjectToggle.style.transform = "translateX(0px)";
 });
 
 getProjectToggle.addEventListener("mouseenter", function () {

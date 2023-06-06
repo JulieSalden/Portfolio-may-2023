@@ -8,84 +8,84 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div id="nav-main">
-          <img id="toggleMenu" src="/hamburger_menu.png" />
-          <ul id="projectMenu">
-            <li id="projectsAndHome">
-              <p>Home</p>
-            </li>
-            <li id="aboutMePage">
-              <a href="aboutMe.html"><p>About Me</p></a>
-            </li>
-            <li id="projectsAndHome">
-              <p>Projects</p>
-            </li>
-            <li id="recipeChecker">
-              <a href="recipeChecker.html"><p>React Basic Project</p></a>
-            </li>
-            <li id="eventApp">
-              <a href="eventApp.html"><p>React Advanced Project</p></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <div class="bg">
+      <header>
+        <nav>
+          <div id="nav-main">
+            <img id="toggleMenu" src="/hamburger_menu.png" />
+            <ul id="projectMenu">
+              <li id="projectsAndHome">
+                <p>Home</p>
+              </li>
+              <li id="aboutMePage">
+                <a href="aboutMe.html"><p>About Me</p></a>
+              </li>
+              <li id="projectsAndHome">
+                <p>Projects</p>
+              </li>
+              <li id="recipeChecker">
+                <a href="recipeChecker.html"><p>React Basic Project</p></a>
+              </li>
+              <li id="eventApp">
+                <a href="eventApp.html"><p>React Advanced Project</p></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-    <main>
-      <div class="projectDiv">
-        <p>React Advanced Project: the Event App</p>
-        <div class="projectPicContainer">
-          <img class="projectPic" src="../images/eventAppFull1.png" />
-          <img class="projectPic" src="../images/eventAppFull2.png" />
-          <img class="projectPic" src="../images/eventAppZoom.png" />
-        </div>
+      <main>
+        <div class="projectDiv">
+          <p>React Advanced Project: the Event App</p>
+          <div class="projectPicContainer">
+            <img class="projectPic" src="../images/eventAppFull1.png" />
+            <img class="projectPic" src="../images/eventAppFull2.png" />
+            <img class="projectPic" src="../images/eventAppZoom.png" />
+          </div>
 
-        <div class="projectTextContainer">
-          <div class="projectText">
-            <p>
-              This was the final assignment for the advanced module of the React
-              course. We had to build an App where you could check out events
-              and be able to modify or delete them. The App contains a homepage
-              where the events are displayed and when clicked, there's a
-              detailed version of the event. Mandatory was a searchbar, and a
-              search function to search by categories. I added a filter function
-              for a-Z, date and category. Also there's an option to show more
-              events.<br /><br />
-              This project was quite the challenge for a beginner but luckily
-              I'm all here for challenges.
-              <br /><br />
-              Design wise I choose for hard and contrasting colors. The black
-              being a dark space and the yellow being the light effects. Makes
-              you want to go out and have fun, right? The App is also
-              responsive.
-              <br /><br />
-              Code wise I choose to make it as simple as possible, so it would
-              be easier for me to learn and look back at it. I could've used
-              more complex hooks (like useContext) and I would love to become
-              better at this in the future. I've made use of React Router Dom,
-              Formik, Yup and Chakra UI. <br /><br />
-              What I also did is create a different version of the App so I
-              could deploy the App on Firebase. This isn't thought in the
-              course.
-            </p>
+          <div class="projectTextContainer">
+            <div class="projectText">
+              <p>
+                This was the final assignment for the advanced module of the
+                React course. We had to build an App where you could check out
+                events and be able to modify or delete them. The App contains a
+                homepage where the events are displayed and when clicked,
+                there's a detailed version of the event. Mandatory was a
+                searchbar, and a search function to search by categories. I
+                added a filter function for a-Z, date and category. Also there's
+                an option to show more events.<br /><br />
+                This project was quite the challenge for a beginner but luckily
+                I'm all here for challenges.
+                <br /><br />
+                Design wise I choose for hard and contrasting colors. The black
+                being a dark space and the yellow being the light effects. Makes
+                you want to go out and have fun, right? The App is also
+                responsive.
+                <br /><br />
+                Code wise I choose to make it as simple as possible, so it would
+                be easier for me to learn and look back at it. I could've used
+                more complex hooks (like useContext) and I would love to become
+                better at this in the future. I've made use of React Router Dom,
+                Formik, Yup and Chakra UI. <br /><br />
+                The app was orignally working with a local host but I moved the
+                database to Heroku.
+              </p>
 
-            <a href="https://www.linkedin.com/in/julie-salden/" target="_blank"
-              ><p>Check out the live version</p></a
-            >
-            <a href="https://github.com/JulieSalden/EventApp" target="_blank"
-              ><p>Check out the code on GitHub</p></a
-            >
+              <a href="https://regal-chaja-2311da.netlify.app/" target="_blank"
+                ><p>Check out the live version</p></a
+              >
+              <a href="https://github.com/JulieSalden/EventApp" target="_blank"
+                ><p>Check out the code on GitHub</p></a
+              >
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      <p id="footer">Portfolio Julie Salden 2023</p>
-    </footer>
-
-    <script defer src="../script.js"></script>
+      <footer>
+        <p id="footer">Portfolio Julie Salden 2023</p>
+      </footer>
+    </div>
   </body>
 </html>
+<script defer src="../script.js"></script>
